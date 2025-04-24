@@ -75,6 +75,47 @@
 
 // Questão 7
 
-let ano = 2020;
+// let ano = 2023;
 
-if()
+// if (ano % 400 == 0) {
+//     console.log(`${ano} é bisexto`);
+// } else if (ano % 4 == 0 && ano % 100 != 0) {
+//     console.log(`${ano} é bisexto`);
+// } else {
+//     console.log(`${ano} não é bisexto`);
+// }
+
+
+// Questão 8 
+
+// let usuario = "francisco"
+
+// let senha = 1234
+
+// if (usuario == "francisco" && senha == 1234 ){
+//  console.log("acesso Liberado");
+// } else{
+//  console.log("acesso negado");
+
+//  }
+
+// Questão 9
+
+// let compra = 150;
+// let frete = 20;
+
+// if (compra >= 200) {
+//     console.log(`Frete Grátis R$${compra.toFixed(2)}`);
+// } else {
+//     let total = compra + frete;
+//     console.log(`Total com Frete: R$${total.toFixed(2)}`);
+// }
+
+// Questão 10 
+
+let numero = 50
+if(numero > 10 && numero < 40 )
+    console.log("Esta No Intervalo");
+else{
+    console.log("Fora Do Intervalo");
+}
